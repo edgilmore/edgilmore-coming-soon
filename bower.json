@@ -1,0 +1,26 @@
+{
+  "name": "edgilmore-coming-soon",
+  "description": "coming soon website for edward gilmore",
+  "main": "app.js",
+  "authors": [
+    "Edward Gilmore"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.5.0",
+    "bootstrap": "^3.3.6",
+    "animate.css": "^3.5.1",
+    "timecircles": "^1.5.3",
+    "vegas": "^2.2.0"
+  }
+}
