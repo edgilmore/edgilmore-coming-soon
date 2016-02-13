@@ -13,6 +13,7 @@
     "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-bundle-assets": "^2.23.0",
-    "gulp-sass": "^2.2.0"
+    "gulp-sass": "^2.2.0",
+    "run-sequence": "^1.1.5"
   }
 }
