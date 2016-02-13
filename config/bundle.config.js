@@ -12,8 +12,8 @@ module.exports = {
             ],
             styles: ['./temp/vendor.css'],
             options: {
-                uglify: false,
-                minCSS: false,
+                uglify: true,
+                minCSS: true,
                 rev: false
             }
         }

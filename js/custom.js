@@ -17,7 +17,7 @@ $(document).ready(function() {
 
     //Time circle countdown start
 	$('#DateCountdown').TimeCircles({
-        "animation": "ticks",
+        "animation": "smooth",
         "bg_width": 0.2,
         "fg_width": 0.016666666666666666,
         "circle_bg_color": "#F5F5F5",
@@ -44,7 +44,6 @@ $(document).ready(function() {
             }
         }
     });
-
     //Time circle countdown end -->
 
     //GOOGLE map initialization star-->
