@@ -5,17 +5,12 @@
  * Sitename theme v1.0
 ------------------------------*/
 'use strict';
-
-
-$(document).ready(function() {	
+$(document).ready(function() {
     //Vegas background start
-	$.vegas({
-	  src:'image/background.jpg'
+	$('body').vegas({
+        slides: [{src: 'image/background.jpg'}],
+        overlay: 'image/overlays/05.png'
 	});
-	
-	$.vegas('overlay', {
-	  src:'plugins/vegas/overlays/05.png'
-	});	
     //Vegas background end
 
     //Time circle countdown start

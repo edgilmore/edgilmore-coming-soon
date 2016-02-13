@@ -13,7 +13,7 @@ var config = {
         configFile: './config/bundle.config.js'
     },
     paths: {
-        vendorSassFile:'./sass/vendor.scss',
+        vendorSassFile:'./sass/vendor/vendor.scss',
         fontsFiles:['./bower_components/bootstrap-sass/assets/fonts/bootstrap/*.*','./bower_components/font-awesome/fonts/*.*'],
         fontsDir: './fonts/',
         fontAwesomeSass:'./bower_components/font-awesome/scss/font-awesome.scss',
@@ -53,7 +53,7 @@ gulp.task('move:vegas-overlays', function () {
         .pipe(gulp.dest(config.paths.images + 'overlays/'));
 });
 gulp.task('build:bundle',['build:vendor-css'], function () {
-    return gulp.src('./config/bundle.config.js')
+    return gulp.src(config.bundle.configFile)
         .pipe(bundle())
         .pipe(bundle.results(config.paths.temp))
         .pipe(gulp.dest(config.paths.temp));

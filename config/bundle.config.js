@@ -4,13 +4,17 @@
 module.exports = {
     bundle: {
         vendor: {
-            scripts: ['./bower_components/jquery/dist/jquery.js','./bower_components/bootstrap-sass/javascripts/bootstrap.js','./bower_components/timecircles/inc/TimeCircles.js','./bower_components/vegas/vegas.js'],
+            scripts: [
+                './bower_components/jquery/dist/jquery.js',
+                './bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
+                './bower_components/timecircles/inc/TimeCircles.js',
+                './bower_components/vegas/dist/vegas.js'
+            ],
             styles: ['./temp/vendor.css'],
             options: {
-                useMin: false,
+                uglify: false,
                 minCSS: false,
-                rev: false,
-                pathPrefix: './vendor/'
+                rev: false
             }
         }
     }
