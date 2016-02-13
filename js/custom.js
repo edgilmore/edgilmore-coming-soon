@@ -8,8 +8,10 @@
 $(document).ready(function() {
     //Vegas background start
 	$('body').vegas({
-        slides: [{src: 'image/background.jpg'}],
-        overlay: 'image/overlays/05.png'
+        slides: [
+            {src: 'image/background.jpg'},
+            {src: 'image/background-2.jpg'}
+        ]
 	});
     //Vegas background end
 
