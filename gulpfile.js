@@ -18,8 +18,8 @@ var config = {
         javascript: './js/',
         jsVendorDir: './js/vendor/',
         temp: './temp/',
-        vegasOverlays: './bower_components/vegas/dist/overlays/',
-        images: './images/'
+        vegasOverlays: './bower_components/vegas/dist/overlays/*.*',
+        images: './image/'
     }
 };
 gulp.task('clean:css', function () {
