@@ -13,6 +13,7 @@ var config = {
         configFile: './config/bundle.config.js'
     },
     paths: {
+        appSassFile: './sass/app.scss',
         vendorSassFile:'./sass/vendor/vendor.scss',
         fontsFiles:['./bower_components/bootstrap-sass/assets/fonts/bootstrap/*.*','./bower_components/font-awesome/fonts/*.*'],
         fontsDir: './fonts/',
@@ -23,7 +24,8 @@ var config = {
         temp: './temp/',
         vegasOverlays: './bower_components/vegas/dist/overlays/*.*',
         images: './image/'
-    }
+    },
+    sassOutputStyle: 'extended'
 };
 gulp.task('clean:temp', function () {
     return del(config.paths.temp);
@@ -41,7 +43,7 @@ gulp.task('clean', ['clean:temp','clean:vendor','clean:fonts','clean:css'], func
 });
 gulp.task('build:vendor-css', function() {
      return gulp.src(config.paths.vendorSassFile)
-        .pipe(sass({outputStyle: 'extended'}).on('error', sass.logError))
+        .pipe(sass({outputStyle: config.sassOutputStyle}).on('error', sass.logError))
         .pipe(gulp.dest(config.paths.temp));
 });
 gulp.task('move:fonts', function () {
@@ -72,6 +74,15 @@ gulp.task('move:bundle-json', function () {
 });
 gulp.task('move:bundled-files', ['move:bundled-css-vendor','move:bundled-js-vendor','move:fonts','move:vegas-overlays', 'move:bundle-json'], function () {
 });
+gulp.task('compile:sass', function () {
+    return gulp.src(config.paths.appSassFile)
+        .pipe(sass({outputStyle: config.sassOutputStyle}).on('error', sass.logError))
+        .pipe(gulp.dest(config.paths.styles));
+});
+gulp.task('watch:sass', function () {
+    gulp.watch(config.paths.appSassFile, ['compile:sass']);
+});
+
 gulp.task('default', function (cb) {
-    runSequence(['clean','build:bundle'],['move:bundled-files'],['clean:temp'], cb);
+    runSequence(['clean','build:bundle', 'compile:sass'],['move:bundled-files'],['clean:temp'], cb);
 });
