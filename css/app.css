@@ -132,545 +132,513 @@ h2 {
     border-color: #FFF;
     padding-top: 15px; }
 
-.brands > li > a {
-  list-style: none;
-  padding-left: 0;
-  background-color: transparent;
-  border-radius: 60px;
-  border: 1px solid transparent;
-  color: #FFFFFF; }
-  .brands > li > a > li {
-    margin: 0 0 8px; }
-  .brands > li > a:hover {
-    color: #FFFFFF;
-    transition-duration: 1s;
-    border-radius: 60px;
-    border: 1px solid #FFF; }
-
-/*------------------------------
-	MODAL
-------------------------------*/
-.modal-dialog {
-  width: 100%;
-  position: absolute;
-  top: -30px;
-  text-align: center;
-  background-color: #4F5D73;
-  padding-bottom: 30px; }
-
-.modal {
-  overflow: hidden; }
-  .modal img {
-    margin: 0 auto 0 auto; }
-  .modal p {
-    font-weight: 200;
-    font-size: 18px; }
-  .modal h3 {
-    font-size: 46px;
-    font-weight: 200;
-    color: #FFF;
-    padding-bottom: 10px; }
-  .modal h4 {
-    font-size: 24px;
-    font-weight: 200;
-    color: #FFF; }
-  .modal address {
-    color: #FFF; }
-
-#map-canvas {
-  height: 350px;
-  margin: 0;
-  padding: 0; }
-
-.form-group {
-  line-height: 50px; }
-
-.subscribe-wrap {
-  padding-top: 36px; }
-
-.form-inline .form-control {
-  backgroung-color: #FFF;
-  width: 100%;
-  height: 36px;
-  box-shadow: none; }
-
-form .form-inline {
-  backgroung-color: #FFF;
-  width: 300px;
-  height: 38px;
-  box-shadow: none; }
-
-.form-control:focus {
-  border-color: #FFF;
-  box-shadow: none; }
-
-.form-control::-moz-placeholder {
-  color: #FFF; }
-
-button.close {
-  font-size: 36px; }
-
-.btn-submit {
-  background-color: transparent;
-  border: 1px solid #FFF; }
-  .btn-submit:hover {
-    transition-duration: 1s;
-    background-color: #FFF;
-    border: 1px solid #FFF; }
-
-address {
-  font-family: 'Source Sans Pro', sans-serif;
-  text-align: left;
-  font-size: 18px;
-  font-weight: 300; }
-  address a {
-    text-decoration: underline; }
-    address a:hover {
-      color: #FFFFFF;
-      text-decoration: none; }
-
-/*------------------------------
-	MEDIUM DEVICES
-------------------------------*/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .line:before, .line:after {
-    max-width: 300px; }
-  .time_circles {
-    margin-bottom: 24%; } }
-
-/*------------------------------
-	SMALL DEVICES
-------------------------------*/
-@media (min-width: 768px) and (max-width: 992px) {
-  .line:before, .line:after {
-    max-width: 200px; }
-  .time_circles {
-    margin-bottom: 20%; }
-  .navbar-default .navbar-nav > li > a {
-    font-size: 15px; } }
-
-/*------------------------------
-	EXTRA SMALL DEVICES
-------------------------------*/
-@media (min-width: 481px) and (max-width: 767px) {
-  .line:before, .line:after {
-    max-width: 200px; }
-  .text {
-    padding: 0 0 0 0; }
-  #DateCountdown {
-    width: 450px; }
-  address {
-    padding-top: 15px; }
-  .time_circles {
-    margin-bottom: 22%; }
-  .btn-primary:hover {
-    transition-duration: 1s;
-    background-color: transparent;
-    border: 1px solid #FFF; }
-  .modal {
-    overflow: auto; }
-  .modal-dialog {
-    margin: 0; }
-  form {
-    margin-top: 15px; }
-  .navbar-default .navbar-nav > li > a:hover:before {
-    color: transparent;
-    text-shadow: none;
-    transition-duration: 0.5s; }
-  .navbar-default {
-    background-color: rgba(0, 0, 0, 0.6); }
-  .navbar-default .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.6); }
-  .brands > li > a {
-    background-color: transparent;
-    border-radius: 60px;
-    border: 1px solid #FFFFFF;
-    color: #FFFFFF; } }
-
-/*------------------------------
-	Phones with 600px width
-------------------------------*/
-@media (max-width: 600px) {
-  .line:before, .line:after {
-    max-width: 110px; } }
-
-/*------------------------------
-	Phones with 548px width
-------------------------------*/
-@media (max-width: 548px) {
-  .line:before, .line:after {
-    max-width: 90px; }
-  .form-inline .form-control {
-    float: left;
-    width: 250px; } }
-
-/*------------------------------
-	Phones with 480px width
-------------------------------*/
-@media (min-width: 321px) and (max-width: 480px) {
-  .form-inline .form-control {
-    float: left;
-    width: 250px; }
-  .line:before, .line:after {
-    height: 0; }
-  .text {
-    padding: 0 0 0 0; }
-  #DateCountdown {
-    width: 350px; }
-  address {
-    padding-top: 15px; }
-  .time_circles {
-    margin-bottom: 22%; }
-  .btn-primary:hover {
-    transition-duration: 1s;
-    background-color: transparent;
-    border: 1px solid #FFF; }
-  .modal {
-    overflow: auto; }
-  .modal-dialog {
-    margin: 0; }
-  .navbar-default .navbar-nav > li > a:hover:before {
-    color: transparent;
-    text-shadow: none;
-    transition-duration: 0.5s; }
-  .navbar-default {
-    background-color: rgba(0, 0, 0, 0.6); }
-  .navbar-default .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.6); }
-  .brands > li > a {
-    background-color: transparent;
-    border-radius: 60px;
-    border: 1px solid #FFFFFF;
-    color: #FFFFFF; } }
-
-/*------------------------------
-	Phones with 320px width
-------------------------------*/
-@media (max-width: 320px) {
-  .text {
-    padding: 0 0 0 0; }
-  address {
-    padding-top: 15px; }
-  #DateCountdown {
-    width: 200px; }
-  .time_circles {
-    margin-bottom: 20%; }
-  .btn-primary:hover {
-    transition-duration: 1s;
-    background-color: transparent;
-    border: 1px solid #FFF; }
-  .modal {
-    overflow: auto; }
-  .modal-dialog {
-    margin: 0; }
-  .form-inline .form-control {
-    width: 200px;
-    margin-bottom: 15px; }
-  .navbar-default {
-    background-color: rgba(0, 0, 0, 0.6); }
-  .navbar-default .navbar-nav > li > a:hover:before {
-    color: transparent;
-    text-shadow: none;
-    transition-duration: 0.5s; }
-  .navbar-default .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.6); }
+.brands {
+  /*------------------------------
+      MODAL
+  ------------------------------*/
+  /*------------------------------
+      MEDIUM DEVICES
+  ------------------------------*/
+  /*------------------------------
+      SMALL DEVICES
+  ------------------------------*/
+  /*------------------------------
+      EXTRA SMALL DEVICES
+  ------------------------------*/
+  /*------------------------------
+      Phones with 600px width
+  ------------------------------*/
+  /*------------------------------
+      Phones with 548px width
+  ------------------------------*/
+  /*------------------------------
+      Phones with 480px width
+  ------------------------------*/
+  /*------------------------------
+      Phones with 320px width
+  ------------------------------*/
+  /*------------------------------
+      BRAND COLORS
+  ------------------------------*/
+  /*------------------------------
+      SHAPES
+  ------------------------------*/
+  /*------------------------------
+      ANIMATION
+  ------------------------------*/
+  /*------------------------------
+      STRUCTURE
+  ------------------------------*/
+  /*------------------------------
+      MEDIA QUERIES
+  ------------------------------*/ }
   .brands > li {
     margin: 0 0 8px; }
-    .brands > li > a {
+  .brands > li > a {
+    list-style: none;
+    padding-left: 0;
+    background-color: transparent;
+    border-radius: 60px;
+    border: 1px solid transparent;
+    color: #FFFFFF; }
+    .brands > li > a:hover {
+      color: #FFFFFF;
+      transition-duration: 1s;
+      border-radius: 60px;
+      border: 1px solid #FFF; }
+  .brands .modal-dialog {
+    width: 100%;
+    position: absolute;
+    top: -30px;
+    text-align: center;
+    background-color: #4F5D73;
+    padding-bottom: 30px; }
+  .brands .modal {
+    overflow: hidden; }
+    .brands .modal img {
+      margin: 0 auto 0 auto; }
+    .brands .modal p {
+      font-weight: 200;
+      font-size: 18px; }
+    .brands .modal h3 {
+      font-size: 46px;
+      font-weight: 200;
+      color: #FFF;
+      padding-bottom: 10px; }
+    .brands .modal h4 {
+      font-size: 24px;
+      font-weight: 200;
+      color: #FFF; }
+    .brands .modal address {
+      color: #FFF; }
+  .brands #map-canvas {
+    height: 350px;
+    margin: 0;
+    padding: 0; }
+  .brands .form-group {
+    line-height: 50px; }
+  .brands .subscribe-wrap {
+    padding-top: 36px; }
+  .brands .form-inline .form-control {
+    backgroung-color: #FFF;
+    width: 100%;
+    height: 36px;
+    box-shadow: none; }
+  .brands form .form-inline {
+    backgroung-color: #FFF;
+    width: 300px;
+    height: 38px;
+    box-shadow: none; }
+  .brands .form-control:focus {
+    border-color: #FFF;
+    box-shadow: none; }
+  .brands .form-control::-moz-placeholder {
+    color: #FFF; }
+  .brands button.close {
+    font-size: 36px; }
+  .brands .btn-submit {
+    background-color: transparent;
+    border: 1px solid #FFF; }
+    .brands .btn-submit:hover {
+      transition-duration: 1s;
+      background-color: #FFF;
+      border: 1px solid #FFF; }
+  .brands address {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300; }
+    .brands address a {
+      text-decoration: underline; }
+      .brands address a:hover {
+        color: #FFFFFF;
+        text-decoration: none; }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .brands .line:before, .brands .line:after {
+      max-width: 300px; }
+    .brands .time_circles {
+      margin-bottom: 24%; } }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .brands .line:before, .brands .line:after {
+      max-width: 200px; }
+    .brands .time_circles {
+      margin-bottom: 20%; }
+    .brands .navbar-default .navbar-nav > li > a {
+      font-size: 15px; } }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .brands .line:before, .brands .line:after {
+      max-width: 200px; }
+    .brands .text {
+      padding: 0 0 0 0; }
+    .brands #DateCountdown {
+      width: 450px; }
+    .brands address {
+      padding-top: 15px; }
+    .brands .time_circles {
+      margin-bottom: 22%; }
+    .brands .btn-primary:hover {
+      transition-duration: 1s;
+      background-color: transparent;
+      border: 1px solid #FFF; }
+    .brands .modal {
+      overflow: auto; }
+    .brands .modal-dialog {
+      margin: 0; }
+    .brands form {
+      margin-top: 15px; }
+    .brands .navbar-default .navbar-nav > li > a:hover:before {
+      color: transparent;
+      text-shadow: none;
+      transition-duration: 0.5s; }
+    .brands .navbar-default {
+      background-color: rgba(0, 0, 0, 0.6); }
+    .brands .navbar-default .navbar-collapse {
+      background-color: rgba(0, 0, 0, 0.6); }
+    .brands .brands > li > a {
       background-color: transparent;
       border-radius: 60px;
       border: 1px solid #FFFFFF;
-      color: #FFFFFF; }
-  .brands-tn > li > a {
-    font-size: 12px;
-    padding-top: 4px;
-    width: 25px;
-    height: 25px; }
-  .brands-sm > li > a {
-    font-size: 16px;
-    padding-top: 6px;
-    width: 35px;
-    height: 35px; }
-  .brands-lg > li > a {
-    font-size: 40px;
-    padding-top: 12px;
-    width: 80px;
-    height: 80px; }
-  .brands-hg > li > a {
-    font-size: 60px;
-    padding-top: 13px;
-    width: 110px;
-    height: 110px; }
-  .line:before, .line:after {
-    height: 0; } }
-
-/*------------------------------
-	BRAND COLORS
-------------------------------*/
-.brands-inverse > li > a {
-  background-color: #555555;
-  color: #ebebeb; }
-
-.brands-colored > li > a {
-  color: #ffffff; }
-  .brands-colored > li > a:hover {
+      color: #FFFFFF; } }
+  @media (max-width: 600px) {
+    .brands .line:before, .brands .line:after {
+      max-width: 110px; } }
+  @media (max-width: 548px) {
+    .brands .line:before, .brands .line:after {
+      max-width: 90px; }
+    .brands .form-inline .form-control {
+      float: left;
+      width: 250px; } }
+  @media (min-width: 321px) and (max-width: 480px) {
+    .brands .form-inline .form-control {
+      float: left;
+      width: 250px; }
+    .brands .line:before, .brands .line:after {
+      height: 0; }
+    .brands .text {
+      padding: 0 0 0 0; }
+    .brands #DateCountdown {
+      width: 350px; }
+    .brands address {
+      padding-top: 15px; }
+    .brands .time_circles {
+      margin-bottom: 22%; }
+    .brands .btn-primary:hover {
+      transition-duration: 1s;
+      background-color: transparent;
+      border: 1px solid #FFF; }
+    .brands .modal {
+      overflow: auto; }
+    .brands .modal-dialog {
+      margin: 0; }
+    .brands .navbar-default .navbar-nav > li > a:hover:before {
+      color: transparent;
+      text-shadow: none;
+      transition-duration: 0.5s; }
+    .brands .navbar-default {
+      background-color: rgba(0, 0, 0, 0.6); }
+    .brands .navbar-default .navbar-collapse {
+      background-color: rgba(0, 0, 0, 0.6); }
+    .brands .brands > li > a {
+      background-color: transparent;
+      border-radius: 60px;
+      border: 1px solid #FFFFFF;
+      color: #FFFFFF; } }
+  @media (max-width: 320px) {
+    .brands .text {
+      padding: 0 0 0 0; }
+    .brands address {
+      padding-top: 15px; }
+    .brands #DateCountdown {
+      width: 200px; }
+    .brands .time_circles {
+      margin-bottom: 20%; }
+    .brands .btn-primary:hover {
+      transition-duration: 1s;
+      background-color: transparent;
+      border: 1px solid #FFF; }
+    .brands .modal {
+      overflow: auto; }
+    .brands .modal-dialog {
+      margin: 0; }
+    .brands .form-inline .form-control {
+      width: 200px;
+      margin-bottom: 15px; }
+    .brands .navbar-default {
+      background-color: rgba(0, 0, 0, 0.6); }
+    .brands .navbar-default .navbar-nav > li > a:hover:before {
+      color: transparent;
+      text-shadow: none;
+      transition-duration: 0.5s; }
+    .brands .navbar-default .navbar-collapse {
+      background-color: rgba(0, 0, 0, 0.6); }
+    .brands .brands > li {
+      margin: 0 0 8px; }
+      .brands .brands > li > a {
+        background-color: transparent;
+        border-radius: 60px;
+        border: 1px solid #FFFFFF;
+        color: #FFFFFF; }
+    .brands .brands-tn > li > a {
+      font-size: 12px;
+      padding-top: 4px;
+      width: 25px;
+      height: 25px; }
+    .brands .brands-sm > li > a {
+      font-size: 16px;
+      padding-top: 6px;
+      width: 35px;
+      height: 35px; }
+    .brands .brands-lg > li > a {
+      font-size: 40px;
+      padding-top: 12px;
+      width: 80px;
+      height: 80px; }
+    .brands .brands-hg > li > a {
+      font-size: 60px;
+      padding-top: 13px;
+      width: 110px;
+      height: 110px; }
+    .brands .line:before, .brands .line:after {
+      height: 0; } }
+  .brands .brands-inverse > li > a {
+    background-color: #555555;
+    color: #ebebeb; }
+  .brands .brands-colored > li > a {
     color: #ffffff; }
-  .brands-colored > li > a.brands-adn {
-    background-color: #444444; }
-    .brands-colored > li > a.brands-adn:hover {
+    .brands .brands-colored > li > a:hover {
+      color: #ffffff; }
+    .brands .brands-colored > li > a.brands-adn {
       background-color: #444444; }
-  .brands-colored > li > a.brands-android {
-    background-color: #A4C639; }
-    .brands-colored > li > a.brands-android:hover {
+      .brands .brands-colored > li > a.brands-adn:hover {
+        background-color: #444444; }
+    .brands .brands-colored > li > a.brands-android {
       background-color: #A4C639; }
-  .brands-colored > li > a.brands-apple {
-    background-color: #000000; }
-    .brands-colored > li > a.brands-apple:hover {
+      .brands .brands-colored > li > a.brands-android:hover {
+        background-color: #A4C639; }
+    .brands .brands-colored > li > a.brands-apple {
       background-color: #000000; }
-  .brands-colored > li > a.brands-bitbucket {
-    background-color: #205081; }
-    .brands-colored > li > a.brands-bitbucket:hover {
+      .brands .brands-colored > li > a.brands-apple:hover {
+        background-color: #000000; }
+    .brands .brands-colored > li > a.brands-bitbucket {
       background-color: #205081; }
-  .brands-colored > li > a.brands-btc {
-    background-color: #F89F37; }
-    .brands-colored > li > a.brands-btc:hover {
+      .brands .brands-colored > li > a.brands-bitbucket:hover {
+        background-color: #205081; }
+    .brands .brands-colored > li > a.brands-btc {
       background-color: #F89F37; }
-  .brands-colored > li > a.brands-css3 {
-    background-color: #2177FF; }
-    .brands-colored > li > a.brands-css3:hover {
+      .brands .brands-colored > li > a.brands-btc:hover {
+        background-color: #F89F37; }
+    .brands .brands-colored > li > a.brands-css3 {
       background-color: #2177FF; }
-  .brands-colored > li > a.brands-dribbble {
-    background-color: #F46899; }
-    .brands-colored > li > a.brands-dribbble:hover {
+      .brands .brands-colored > li > a.brands-css3:hover {
+        background-color: #2177FF; }
+    .brands .brands-colored > li > a.brands-dribbble {
       background-color: #F46899; }
-  .brands-colored > li > a.brands-dropbox {
-    background-color: #3476E4; }
-    .brands-colored > li > a.brands-dropbox:hover {
+      .brands .brands-colored > li > a.brands-dribbble:hover {
+        background-color: #F46899; }
+    .brands .brands-colored > li > a.brands-dropbox {
       background-color: #3476E4; }
-  .brands-colored > li > a.brands-facebook {
-    background-color: #3B5998; }
-    .brands-colored > li > a.brands-facebook:hover {
+      .brands .brands-colored > li > a.brands-dropbox:hover {
+        background-color: #3476E4; }
+    .brands .brands-colored > li > a.brands-facebook {
       background-color: #3B5998; }
-  .brands-colored > li > a.brands-flickr {
-    background-color: #FE0883; }
-    .brands-colored > li > a.brands-flickr:hover {
+      .brands .brands-colored > li > a.brands-facebook:hover {
+        background-color: #3B5998; }
+    .brands .brands-colored > li > a.brands-flickr {
       background-color: #FE0883; }
-  .brands-colored > li > a.brands-foursquare {
-    background-color: #8FD400; }
-    .brands-colored > li > a.brands-foursquare:hover {
+      .brands .brands-colored > li > a.brands-flickr:hover {
+        background-color: #FE0883; }
+    .brands .brands-colored > li > a.brands-foursquare {
       background-color: #8FD400; }
-  .brands-colored > li > a.brands-github {
-    background-color: #222222; }
-    .brands-colored > li > a.brands-github:hover {
+      .brands .brands-colored > li > a.brands-foursquare:hover {
+        background-color: #8FD400; }
+    .brands .brands-colored > li > a.brands-github {
       background-color: #222222; }
-  .brands-colored > li > a.brands-gittip {
-    background-color: #663300; }
-    .brands-colored > li > a.brands-gittip:hover {
+      .brands .brands-colored > li > a.brands-github:hover {
+        background-color: #222222; }
+    .brands .brands-colored > li > a.brands-gittip {
       background-color: #663300; }
-  .brands-colored > li > a.brands-google-plus {
-    background-color: #C63D2D; }
-    .brands-colored > li > a.brands-google-plus:hover {
+      .brands .brands-colored > li > a.brands-gittip:hover {
+        background-color: #663300; }
+    .brands .brands-colored > li > a.brands-google-plus {
       background-color: #C63D2D; }
-  .brands-colored > li > a.brands-html5 {
-    background-color: #E44D26; }
-    .brands-colored > li > a.brands-html5:hover {
+      .brands .brands-colored > li > a.brands-google-plus:hover {
+        background-color: #C63D2D; }
+    .brands .brands-colored > li > a.brands-html5 {
       background-color: #E44D26; }
-  .brands-colored > li > a.brands-instagram {
-    background-color: #4E433C; }
-    .brands-colored > li > a.brands-instagram:hover {
+      .brands .brands-colored > li > a.brands-html5:hover {
+        background-color: #E44D26; }
+    .brands .brands-colored > li > a.brands-instagram {
       background-color: #4E433C; }
-  .brands-colored > li > a.brands-linkedin {
-    background-color: #4875B4; }
-    .brands-colored > li > a.brands-linkedin:hover {
+      .brands .brands-colored > li > a.brands-instagram:hover {
+        background-color: #4E433C; }
+    .brands .brands-colored > li > a.brands-linkedin {
       background-color: #4875B4; }
-  .brands-colored > li > a.brands-linux {
-    background-color: #FFD133; }
-    .brands-colored > li > a.brands-linux:hover {
+      .brands .brands-colored > li > a.brands-linkedin:hover {
+        background-color: #4875B4; }
+    .brands .brands-colored > li > a.brands-linux {
       background-color: #FFD133; }
-  .brands-colored > li > a.brands-maxcdn {
-    background-color: #F7AC1B; }
-    .brands-colored > li > a.brands-maxcdn:hover {
+      .brands .brands-colored > li > a.brands-linux:hover {
+        background-color: #FFD133; }
+    .brands .brands-colored > li > a.brands-maxcdn {
       background-color: #F7AC1B; }
-  .brands-colored > li > a.brands-pagelines {
-    background-color: #135DA7; }
-    .brands-colored > li > a.brands-pagelines:hover {
+      .brands .brands-colored > li > a.brands-maxcdn:hover {
+        background-color: #F7AC1B; }
+    .brands .brands-colored > li > a.brands-pagelines {
       background-color: #135DA7; }
-  .brands-colored > li > a.brands-pinterest {
-    background-color: #CB2027; }
-    .brands-colored > li > a.brands-pinterest:hover {
+      .brands .brands-colored > li > a.brands-pagelines:hover {
+        background-color: #135DA7; }
+    .brands .brands-colored > li > a.brands-pinterest {
       background-color: #CB2027; }
-  .brands-colored > li > a.brands-renren {
-    background-color: #005AAB; }
-    .brands-colored > li > a.brands-renren:hover {
+      .brands .brands-colored > li > a.brands-pinterest:hover {
+        background-color: #CB2027; }
+    .brands .brands-colored > li > a.brands-renren {
       background-color: #005AAB; }
-  .brands-colored > li > a.brands-skype {
-    background-color: #00ADF2; }
-    .brands-colored > li > a.brands-skype:hover {
+      .brands .brands-colored > li > a.brands-renren:hover {
+        background-color: #005AAB; }
+    .brands .brands-colored > li > a.brands-skype {
       background-color: #00ADF2; }
-  .brands-colored > li > a.brands-stack-exchange {
-    background-color: #205296; }
-    .brands-colored > li > a.brands-stack-exchange:hover {
+      .brands .brands-colored > li > a.brands-skype:hover {
+        background-color: #00ADF2; }
+    .brands .brands-colored > li > a.brands-stack-exchange {
       background-color: #205296; }
-  .brands-colored > li > a.brands-stack-overflow {
-    background-color: #D28A29; }
-    .brands-colored > li > a.brands-stack-overflow:hover {
+      .brands .brands-colored > li > a.brands-stack-exchange:hover {
+        background-color: #205296; }
+    .brands .brands-colored > li > a.brands-stack-overflow {
       background-color: #D28A29; }
-  .brands-colored > li > a.brands-trello {
-    background-color: #216884; }
-    .brands-colored > li > a.brands-trello:hover {
+      .brands .brands-colored > li > a.brands-stack-overflow:hover {
+        background-color: #D28A29; }
+    .brands .brands-colored > li > a.brands-trello {
       background-color: #216884; }
-  .brands-colored > li > a.brands-tumblr {
-    background-color: #2B4964; }
-    .brands-colored > li > a.brands-tumblr:hover {
+      .brands .brands-colored > li > a.brands-trello:hover {
+        background-color: #216884; }
+    .brands .brands-colored > li > a.brands-tumblr {
       background-color: #2B4964; }
-  .brands-colored > li > a.brands-twitter {
-    background-color: #33CCFF; }
-    .brands-colored > li > a.brands-twitter:hover {
+      .brands .brands-colored > li > a.brands-tumblr:hover {
+        background-color: #2B4964; }
+    .brands .brands-colored > li > a.brands-twitter {
       background-color: #33CCFF; }
-  .brands-colored > li > a.brands-vimeo {
-    background-color: #86B32D; }
-    .brands-colored > li > a.brands-vimeo:hover {
+      .brands .brands-colored > li > a.brands-twitter:hover {
+        background-color: #33CCFF; }
+    .brands .brands-colored > li > a.brands-vimeo {
       background-color: #86B32D; }
-  .brands-colored > li > a.brands-vk {
-    background-color: #44678D; }
-    .brands-colored > li > a.brands-vk:hover {
+      .brands .brands-colored > li > a.brands-vimeo:hover {
+        background-color: #86B32D; }
+    .brands .brands-colored > li > a.brands-vk {
       background-color: #44678D; }
-  .brands-colored > li > a.brands-weibo {
-    background-color: #D52B2A; }
-    .brands-colored > li > a.brands-weibo:hover {
+      .brands .brands-colored > li > a.brands-vk:hover {
+        background-color: #44678D; }
+    .brands .brands-colored > li > a.brands-weibo {
       background-color: #D52B2A; }
-  .brands-colored > li > a.brands-windows {
-    background-color: #00ADEF; }
-    .brands-colored > li > a.brands-windows:hover {
+      .brands .brands-colored > li > a.brands-weibo:hover {
+        background-color: #D52B2A; }
+    .brands .brands-colored > li > a.brands-windows {
       background-color: #00ADEF; }
-  .brands-colored > li > a.brands-xing {
-    background-color: #005A5F; }
-    .brands-colored > li > a.brands-xing:hover {
+      .brands .brands-colored > li > a.brands-windows:hover {
+        background-color: #00ADEF; }
+    .brands .brands-colored > li > a.brands-xing {
       background-color: #005A5F; }
-  .brands-colored > li > a.brands-youtube {
-    background-color: #FF3333; }
-    .brands-colored > li > a.brands-youtube:hover {
+      .brands .brands-colored > li > a.brands-xing:hover {
+        background-color: #005A5F; }
+    .brands .brands-colored > li > a.brands-youtube {
       background-color: #FF3333; }
-
-.brands-transparent > li > a {
-  background-color: rgba(235, 235, 235, 0.4); }
-
-.brands-transparent-inverse > li > a {
-  background-color: rgba(85, 85, 85, 0.2);
-  color: #ebebeb; }
-
-/*------------------------------
-	SHAPES
-------------------------------*/
-.brands-rounded.brands-tn > li > a {
-  border-radius: 2px; }
-
-.brands-rounded.brands-sm > li > a {
-  border-radius: 4px; }
-
-.brands-rounded > li > a {
-  border-radius: 6px; }
-
-.brands-rounded.brands-lg > li > a {
-  border-radius: 8px; }
-
-.brands-rounded.brands-hg > li > a {
-  border-radius: 10px; }
-
-.brands-circle > li > a {
-  border-radius: 50%; }
-
-/*------------------------------
-	ANIMATION
-------------------------------*/
-.brands-spin > li > a:hover i {
-  animation: spin 0.5s linear;
-  -webkit-animation: spin 0.5s linear; }
-
-.brands-transition > li > a:hover {
-  transition-duration: 0.5s; }
-
-/*------------------------------
-	STRUCTURE
-------------------------------*/
-.brands-inline > li {
-  display: inline-block;
-  margin-right: 5px; }
-
-/*------------------------------
-	MEDIA QUERIES
-------------------------------*/
-@media (max-width: 767px) {
-  .brands > li > a {
-    color: #ffffff; }
-  .brands > li > a.brands-adn {
-    background-color: #444444; }
-  .brands > li > a.brands-android {
-    background-color: #A4C639; }
-  .brands > li > a.brands-apple {
-    background-color: #000000; }
-  .brands > li > a.brands-bitbucket {
-    background-color: #205081; }
-  .brands > li > a.brands-btc {
-    background-color: #F89F37; }
-  .brands > li > a.brands-css3 {
-    background-color: #2177FF; }
-  .brands > li > a.brands-dribbble {
-    background-color: #F46899; }
-  .brands > li > a.brands-dropbox {
-    background-color: #3476E4; }
-  .brands > li > a.brands-facebook {
-    background-color: #3B5998; }
-  .brands > li > a.brands-flickr {
-    background-color: #FE0883; }
-  .brands > li > a.brands-foursquare {
-    background-color: #8FD400; }
-  .brands > li > a.brands-github {
-    background-color: #222222; }
-  .brands > li > a.brands-gittip {
-    background-color: #663300; }
-  .brands > li > a.brands-google-plus {
-    background-color: #C63D2D; }
-  .brands > li > a.brands-html5 {
-    background-color: #E44D26; }
-  .brands > li > a.brands-instagram {
-    background-color: #4E433C; }
-  .brands > li > a.brands-linkedin {
-    background-color: #4875B4; }
-  .brands > li > a.brands-linux {
-    background-color: #FFD133; }
-  .brands > li > a.brands-maxcdn {
-    background-color: #F7AC1B; }
-  .brands > li > a.brands-pagelines {
-    background-color: #135DA7; }
-  .brands > li > a.brands-pinterest {
-    background-color: #CB2027; }
-  .brands > li > a.brands-renren {
-    background-color: #005AAB; }
-  .brands > li > a.brands-skype {
-    background-color: #00ADF2; }
-  .brands > li > a.brands-stack-exchange {
-    background-color: #205296; }
-  .brands > li > a.brands-stack-overflow {
-    background-color: #D28A29; }
-  .brands > li > a.brands-trello {
-    background-color: #216884; }
-  .brands > li > a.brands-tumblr {
-    background-color: #2B4964; }
-  .brands > li > a.brands-twitter {
-    background-color: #33CCFF; }
-  .brands > li > a.brands-vimeo {
-    background-color: #86B32D; }
-  .brands > li > a.brands-vk {
-    background-color: #44678D; }
-  .brands > li > a.brands-weibo {
-    background-color: #D52B2A; }
-  .brands > li > a.brands-windows {
-    background-color: #00ADEF; }
-  .brands > li > a.brands-xing {
-    background-color: #005A5F; }
-  .brands > li > a.brands-youtube {
-    background-color: #FF3333; }
-  .brands-spin > li > a:hover i {
-    animation: none;
-    -webkit-animation: none; } }
+      .brands .brands-colored > li > a.brands-youtube:hover {
+        background-color: #FF3333; }
+  .brands .brands-transparent > li > a {
+    background-color: rgba(235, 235, 235, 0.4); }
+  .brands .brands-transparent-inverse > li > a {
+    background-color: rgba(85, 85, 85, 0.2);
+    color: #ebebeb; }
+  .brands .brands-rounded.brands-tn > li > a {
+    border-radius: 2px; }
+  .brands .brands-rounded.brands-sm > li > a {
+    border-radius: 4px; }
+  .brands .brands-rounded > li > a {
+    border-radius: 6px; }
+  .brands .brands-rounded.brands-lg > li > a {
+    border-radius: 8px; }
+  .brands .brands-rounded.brands-hg > li > a {
+    border-radius: 10px; }
+  .brands .brands-circle > li > a {
+    border-radius: 50%; }
+  .brands .brands-spin > li > a:hover i {
+    animation: spin 0.5s linear;
+    -webkit-animation: spin 0.5s linear; }
+  .brands .brands-transition > li > a:hover {
+    transition-duration: 0.5s; }
+  .brands .brands-inline > li {
+    display: inline-block;
+    margin-right: 5px; }
+  @media (max-width: 767px) {
+    .brands .brands > li > a {
+      color: #ffffff; }
+      .brands .brands > li > a.brands-adn {
+        background-color: #444444; }
+      .brands .brands > li > a.brands-android {
+        background-color: #A4C639; }
+      .brands .brands > li > a.brands-apple {
+        background-color: #000000; }
+      .brands .brands > li > a.brands-bitbucket {
+        background-color: #205081; }
+      .brands .brands > li > a.brands-btc {
+        background-color: #F89F37; }
+      .brands .brands > li > a.brands-css3 {
+        background-color: #2177FF; }
+      .brands .brands > li > a.brands-dribbble {
+        background-color: #F46899; }
+      .brands .brands > li > a.brands-dropbox {
+        background-color: #3476E4; }
+      .brands .brands > li > a.brands-facebook {
+        background-color: #3B5998; }
+      .brands .brands > li > a.brands-flickr {
+        background-color: #FE0883; }
+      .brands .brands > li > a.brands-foursquare {
+        background-color: #8FD400; }
+      .brands .brands > li > a.brands-github {
+        background-color: #222222; }
+      .brands .brands > li > a.brands-gittip {
+        background-color: #663300; }
+      .brands .brands > li > a.brands-google-plus {
+        background-color: #C63D2D; }
+      .brands .brands > li > a.brands-html5 {
+        background-color: #E44D26; }
+      .brands .brands > li > a.brands-instagram {
+        background-color: #4E433C; }
+      .brands .brands > li > a.brands-linkedin {
+        background-color: #4875B4; }
+      .brands .brands > li > a.brands-linux {
+        background-color: #FFD133; }
+      .brands .brands > li > a.brands-maxcdn {
+        background-color: #F7AC1B; }
+      .brands .brands > li > a.brands-pagelines {
+        background-color: #135DA7; }
+      .brands .brands > li > a.brands-pinterest {
+        background-color: #CB2027; }
+      .brands .brands > li > a.brands-renren {
+        background-color: #005AAB; }
+      .brands .brands > li > a.brands-skype {
+        background-color: #00ADF2; }
+      .brands .brands > li > a.brands-stack-exchange {
+        background-color: #205296; }
+      .brands .brands > li > a.brands-stack-overflow {
+        background-color: #D28A29; }
+      .brands .brands > li > a.brands-trello {
+        background-color: #216884; }
+      .brands .brands > li > a.brands-tumblr {
+        background-color: #2B4964; }
+      .brands .brands > li > a.brands-twitter {
+        background-color: #33CCFF; }
+      .brands .brands > li > a.brands-vimeo {
+        background-color: #86B32D; }
+      .brands .brands > li > a.brands-vk {
+        background-color: #44678D; }
+      .brands .brands > li > a.brands-weibo {
+        background-color: #D52B2A; }
+      .brands .brands > li > a.brands-windows {
+        background-color: #00ADEF; }
+      .brands .brands > li > a.brands-xing {
+        background-color: #005A5F; }
+      .brands .brands > li > a.brands-youtube {
+        background-color: #FF3333; }
+    .brands .brands-spin > li > a:hover i {
+      animation: none;
+      -webkit-animation: none; } }

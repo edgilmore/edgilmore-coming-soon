@@ -166,7 +166,8 @@ h2 {
     padding-top: 15px;
   }
 }
-.brands{
+
+.brands {
   > li {
     margin: 0 0 8px;
   }
@@ -184,809 +185,809 @@ h2 {
       border-radius: 60px;
       border: 1px solid #FFF;
     }
-}
-
-/*------------------------------
-	MODAL
-------------------------------*/
-.modal-dialog {
-  width: 100%;
-  position: absolute;
-  top: -30px;
-  text-align: center;
-  background-color: #4F5D73;
-  padding-bottom: 30px;
-}
-
-.modal {
-  overflow: hidden;
-
-  img {
-    margin: 0 auto 0 auto;
   }
 
-  p {
-    font-weight: 200;
-    font-size: 18px;
+  /*------------------------------
+      MODAL
+  ------------------------------*/
+  .modal-dialog {
+    width: 100%;
+    position: absolute;
+    top: -30px;
+    text-align: center;
+    background-color: #4F5D73;
+    padding-bottom: 30px;
   }
 
-  h3 {
-    font-size: 46px;
-    font-weight: 200;
-    color: #FFF;
-    padding-bottom: 10px;
-  }
+  .modal {
+    overflow: hidden;
 
-  h4 {
-    font-size: 24px;
-    font-weight: 200;
-    color: #FFF;
-  }
+    img {
+      margin: 0 auto 0 auto;
+    }
 
-  address {
-    color: #FFF;
-  }
-}
+    p {
+      font-weight: 200;
+      font-size: 18px;
+    }
 
-#map-canvas {
-  height: 350px;
-  margin: 0;
-  padding: 0;
-}
+    h3 {
+      font-size: 46px;
+      font-weight: 200;
+      color: #FFF;
+      padding-bottom: 10px;
+    }
 
-.form-group {
-  line-height: 50px;
-}
+    h4 {
+      font-size: 24px;
+      font-weight: 200;
+      color: #FFF;
+    }
 
-.subscribe-wrap {
-  padding-top: 36px;
-}
-
-.form-inline .form-control {
-  backgroung-color: #FFF;
-  width: 100%;
-  height: 36px;
-  box-shadow: none;
-}
-
-form .form-inline {
-  backgroung-color: #FFF;
-  width: 300px;
-  height: 38px;
-  box-shadow: none;
-}
-
-.form-control:focus {
-  border-color: #FFF;
-  box-shadow: none;
-}
-
-.form-control::-moz-placeholder {
-  color: #FFF;
-}
-
-button.close {
-  font-size: 36px;
-}
-
-.btn-submit {
-  background-color: transparent;
-  border: 1px solid #FFF;
-  &:hover {
-    transition-duration: 1s;
-    background-color: #FFF;
-    border: 1px solid #FFF;
-  }
-}
-
-address {
-  font-family: 'Source Sans Pro', sans-serif;
-  text-align: left;
-  font-size: 18px;
-  font-weight: 300;
-
-  a {
-    text-decoration: underline;
-    &:hover {
-      color: #FFFFFF;
-      text-decoration: none;
+    address {
+      color: #FFF;
     }
   }
-}
 
-/*------------------------------
-	MEDIUM DEVICES
-------------------------------*/
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  .line:before, .line:after {
-    max-width: 300px;
-  }
-  .time_circles {
-    margin-bottom: 24%;
-  }
-}
-
-/*------------------------------
-	SMALL DEVICES
-------------------------------*/
-
-@media (min-width: 768px) and (max-width: 992px) {
-
-  .line:before, .line:after {
-    max-width: 200px;
-  }
-
-  .time_circles {
-    margin-bottom: 20%;
-  }
-
-  .navbar-default .navbar-nav > li > a {
-    font-size: 15px;
-  }
-
-}
-
-/*------------------------------
-	EXTRA SMALL DEVICES
-------------------------------*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-
-  .line:before, .line:after {
-    max-width: 200px;
-  }
-  .text {
-    padding: 0 0 0 0;
-  }
-  #DateCountdown {
-    width: 450px;
-  }
-
-  address {
-    padding-top: 15px;
-  }
-
-  .time_circles {
-    margin-bottom: 22%;
-  }
-
-  .btn-primary:hover {
-    transition-duration: 1s;
-    background-color: transparent;
-    border: 1px solid #FFF;
-  }
-
-  .modal {
-    overflow: auto;
-  }
-
-  .modal-dialog {
+  #map-canvas {
+    height: 350px;
     margin: 0;
+    padding: 0;
   }
 
-  form {
-    margin-top: 15px;
+  .form-group {
+    line-height: 50px;
   }
 
-  .navbar-default .navbar-nav > li > a:hover:before {
-    color: transparent;
-    text-shadow: none;
-    transition-duration: 0.5s;
-  }
-
-  .navbar-default {
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-
-  .navbar-default .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-
-  .brands > li > a {
-    background-color: transparent;
-    border-radius: 60px;
-    border: 1px solid #FFFFFF;
-    color: #FFFFFF;
-  }
-
-}
-
-/*------------------------------
-	Phones with 600px width
-------------------------------*/
-
-@media (max-width: 600px) {
-
-  .line:before, .line:after {
-    max-width: 110px;
-  }
-}
-
-/*------------------------------
-	Phones with 548px width
-------------------------------*/
-
-@media (max-width: 548px) {
-
-  .line:before, .line:after {
-    max-width: 90px;
+  .subscribe-wrap {
+    padding-top: 36px;
   }
 
   .form-inline .form-control {
-    float: left;
-    width: 250px;
-  }
-}
-
-/*------------------------------
-	Phones with 480px width
-------------------------------*/
-
-@media (min-width: 321px) and (max-width: 480px) {
-
-  .form-inline .form-control {
-    float: left;
-    width: 250px;
+    backgroung-color: #FFF;
+    width: 100%;
+    height: 36px;
+    box-shadow: none;
   }
 
-  .line:before, .line:after {
-    height: 0;
+  form .form-inline {
+    backgroung-color: #FFF;
+    width: 300px;
+    height: 38px;
+    box-shadow: none;
   }
 
-  .text {
-    padding: 0 0 0 0;
+  .form-control:focus {
+    border-color: #FFF;
+    box-shadow: none;
   }
 
-  #DateCountdown {
-    width: 350px;
+  .form-control::-moz-placeholder {
+    color: #FFF;
+  }
+
+  button.close {
+    font-size: 36px;
+  }
+
+  .btn-submit {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    &:hover {
+      transition-duration: 1s;
+      background-color: #FFF;
+      border: 1px solid #FFF;
+    }
   }
 
   address {
-    padding-top: 15px;
-  }
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
 
-  .time_circles {
-    margin-bottom: 22%;
-  }
-
-  .btn-primary:hover {
-    transition-duration: 1s;
-    background-color: transparent;
-    border: 1px solid #FFF;
-  }
-
-  .modal {
-    overflow: auto;
-  }
-
-  .modal-dialog {
-    margin: 0;
-  }
-
-  .navbar-default .navbar-nav > li > a:hover:before {
-    color: transparent;
-    text-shadow: none;
-    transition-duration: 0.5s;
-  }
-
-  .navbar-default {
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-
-  .navbar-default .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-
-  .brands > li > a {
-    background-color: transparent;
-    border-radius: 60px;
-    border: 1px solid #FFFFFF;
-    color: #FFFFFF;
-  }
-}
-
-/*------------------------------
-	Phones with 320px width
-------------------------------*/
-
-@media (max-width: 320px) {
-
-  .text {
-    padding: 0 0 0 0;
-  }
-
-  address {
-    padding-top: 15px;
-  }
-
-  #DateCountdown {
-    width: 200px;
-  }
-
-  .time_circles {
-    margin-bottom: 20%;
-  }
-
-  .btn-primary:hover {
-    transition-duration: 1s;
-    background-color: transparent;
-    border: 1px solid #FFF;
-  }
-
-  .modal {
-    overflow: auto;
-  }
-
-  .modal-dialog {
-    margin: 0;
-  }
-
-  .form-inline .form-control {
-    width: 200px;
-    margin-bottom: 15px;
-  }
-
-  .navbar-default {
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-
-  .navbar-default .navbar-nav > li > a:hover:before {
-    color: transparent;
-    text-shadow: none;
-    transition-duration: 0.5s;
-  }
-
-  .navbar-default .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-
-  .brands {
-    > li {
-      margin: 0 0 8px;
-      > a {
-        background-color:transparent;
-        border-radius:60px;
-        border:1px solid #FFFFFF;
-        color:#FFFFFF;
+    a {
+      text-decoration: underline;
+      &:hover {
+        color: #FFFFFF;
+        text-decoration: none;
       }
     }
   }
-  .brands-tn > li > a {
-    font-size: 12px;
-    padding-top: 4px;
-    width: 25px;
-    height: 25px;
+
+  /*------------------------------
+      MEDIUM DEVICES
+  ------------------------------*/
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .line:before, .line:after {
+      max-width: 300px;
+    }
+    .time_circles {
+      margin-bottom: 24%;
+    }
   }
 
-  .brands-sm > li > a {
-    font-size: 16px;
-    padding-top: 6px;
-    width: 35px;
-    height: 35px;
+  /*------------------------------
+      SMALL DEVICES
+  ------------------------------*/
+
+  @media (min-width: 768px) and (max-width: 992px) {
+
+    .line:before, .line:after {
+      max-width: 200px;
+    }
+
+    .time_circles {
+      margin-bottom: 20%;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+      font-size: 15px;
+    }
+
   }
 
-  .brands-lg > li > a {
-    font-size: 40px;
-    padding-top: 12px;
-    width: 80px;
-    height: 80px;
+  /*------------------------------
+      EXTRA SMALL DEVICES
+  ------------------------------*/
+
+  @media (min-width: 481px) and (max-width: 767px) {
+
+    .line:before, .line:after {
+      max-width: 200px;
+    }
+    .text {
+      padding: 0 0 0 0;
+    }
+    #DateCountdown {
+      width: 450px;
+    }
+
+    address {
+      padding-top: 15px;
+    }
+
+    .time_circles {
+      margin-bottom: 22%;
+    }
+
+    .btn-primary:hover {
+      transition-duration: 1s;
+      background-color: transparent;
+      border: 1px solid #FFF;
+    }
+
+    .modal {
+      overflow: auto;
+    }
+
+    .modal-dialog {
+      margin: 0;
+    }
+
+    form {
+      margin-top: 15px;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover:before {
+      color: transparent;
+      text-shadow: none;
+      transition-duration: 0.5s;
+    }
+
+    .navbar-default {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .navbar-default .navbar-collapse {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .brands > li > a {
+      background-color: transparent;
+      border-radius: 60px;
+      border: 1px solid #FFFFFF;
+      color: #FFFFFF;
+    }
+
   }
 
-  .brands-hg > li > a {
-    font-size: 60px;
-    padding-top: 13px;
-    width: 110px;
-    height: 110px;
+  /*------------------------------
+      Phones with 600px width
+  ------------------------------*/
+
+  @media (max-width: 600px) {
+
+    .line:before, .line:after {
+      max-width: 110px;
+    }
   }
 
-  .line:before, .line:after {
-    height: 0;
+  /*------------------------------
+      Phones with 548px width
+  ------------------------------*/
+
+  @media (max-width: 548px) {
+
+    .line:before, .line:after {
+      max-width: 90px;
+    }
+
+    .form-inline .form-control {
+      float: left;
+      width: 250px;
+    }
   }
-}
 
-/*------------------------------
-	BRAND COLORS
-------------------------------*/
+  /*------------------------------
+      Phones with 480px width
+  ------------------------------*/
 
-.brands-inverse > li > a {
-  background-color: #555555;
-  color: #ebebeb;
-}
+  @media (min-width: 321px) and (max-width: 480px) {
 
-.brands-colored > li > a {
-  color: #ffffff;
-  &:hover {
+    .form-inline .form-control {
+      float: left;
+      width: 250px;
+    }
+
+    .line:before, .line:after {
+      height: 0;
+    }
+
+    .text {
+      padding: 0 0 0 0;
+    }
+
+    #DateCountdown {
+      width: 350px;
+    }
+
+    address {
+      padding-top: 15px;
+    }
+
+    .time_circles {
+      margin-bottom: 22%;
+    }
+
+    .btn-primary:hover {
+      transition-duration: 1s;
+      background-color: transparent;
+      border: 1px solid #FFF;
+    }
+
+    .modal {
+      overflow: auto;
+    }
+
+    .modal-dialog {
+      margin: 0;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover:before {
+      color: transparent;
+      text-shadow: none;
+      transition-duration: 0.5s;
+    }
+
+    .navbar-default {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .navbar-default .navbar-collapse {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .brands > li > a {
+      background-color: transparent;
+      border-radius: 60px;
+      border: 1px solid #FFFFFF;
+      color: #FFFFFF;
+    }
+  }
+
+  /*------------------------------
+      Phones with 320px width
+  ------------------------------*/
+
+  @media (max-width: 320px) {
+
+    .text {
+      padding: 0 0 0 0;
+    }
+
+    address {
+      padding-top: 15px;
+    }
+
+    #DateCountdown {
+      width: 200px;
+    }
+
+    .time_circles {
+      margin-bottom: 20%;
+    }
+
+    .btn-primary:hover {
+      transition-duration: 1s;
+      background-color: transparent;
+      border: 1px solid #FFF;
+    }
+
+    .modal {
+      overflow: auto;
+    }
+
+    .modal-dialog {
+      margin: 0;
+    }
+
+    .form-inline .form-control {
+      width: 200px;
+      margin-bottom: 15px;
+    }
+
+    .navbar-default {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .navbar-default .navbar-nav > li > a:hover:before {
+      color: transparent;
+      text-shadow: none;
+      transition-duration: 0.5s;
+    }
+
+    .navbar-default .navbar-collapse {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .brands {
+      > li {
+        margin: 0 0 8px;
+        > a {
+          background-color: transparent;
+          border-radius: 60px;
+          border: 1px solid #FFFFFF;
+          color: #FFFFFF;
+        }
+      }
+    }
+    .brands-tn > li > a {
+      font-size: 12px;
+      padding-top: 4px;
+      width: 25px;
+      height: 25px;
+    }
+
+    .brands-sm > li > a {
+      font-size: 16px;
+      padding-top: 6px;
+      width: 35px;
+      height: 35px;
+    }
+
+    .brands-lg > li > a {
+      font-size: 40px;
+      padding-top: 12px;
+      width: 80px;
+      height: 80px;
+    }
+
+    .brands-hg > li > a {
+      font-size: 60px;
+      padding-top: 13px;
+      width: 110px;
+      height: 110px;
+    }
+
+    .line:before, .line:after {
+      height: 0;
+    }
+  }
+
+  /*------------------------------
+      BRAND COLORS
+  ------------------------------*/
+
+  .brands-inverse > li > a {
+    background-color: #555555;
+    color: #ebebeb;
+  }
+
+  .brands-colored > li > a {
     color: #ffffff;
-  }
-  &.brands-adn {
-    background-color: #444444;
     &:hover {
+      color: #ffffff;
+    }
+    &.brands-adn {
       background-color: #444444;
+      &:hover {
+        background-color: #444444;
+      }
     }
-  }
-  &.brands-android {
-    background-color: #A4C639;
-    &:hover {
+    &.brands-android {
       background-color: #A4C639;
+      &:hover {
+        background-color: #A4C639;
+      }
     }
-  }
-  &.brands-apple {
-    background-color: #000000;
-    &:hover {
+    &.brands-apple {
       background-color: #000000;
+      &:hover {
+        background-color: #000000;
+      }
     }
-  }
-  &.brands-bitbucket {
-    background-color: #205081;
-    &:hover {
+    &.brands-bitbucket {
       background-color: #205081;
+      &:hover {
+        background-color: #205081;
+      }
     }
-  }
-  &.brands-btc {
-    background-color: #F89F37;
-    &:hover {
+    &.brands-btc {
       background-color: #F89F37;
+      &:hover {
+        background-color: #F89F37;
+      }
     }
-  }
-  &.brands-css3 {
-    background-color: #2177FF;
-    &:hover {
+    &.brands-css3 {
       background-color: #2177FF;
+      &:hover {
+        background-color: #2177FF;
+      }
     }
-  }
-  &.brands-dribbble {
-    background-color: #F46899;
-    &:hover {
+    &.brands-dribbble {
       background-color: #F46899;
+      &:hover {
+        background-color: #F46899;
+      }
     }
-  }
-  &.brands-dropbox {
-    background-color: #3476E4;
-    &:hover {
+    &.brands-dropbox {
       background-color: #3476E4;
+      &:hover {
+        background-color: #3476E4;
+      }
     }
-  }
-  &.brands-facebook {
-    background-color: #3B5998;
-    &:hover {
+    &.brands-facebook {
       background-color: #3B5998;
+      &:hover {
+        background-color: #3B5998;
+      }
     }
-  }
-  &.brands-flickr {
-    background-color: #FE0883;
-    &:hover {
+    &.brands-flickr {
       background-color: #FE0883;
+      &:hover {
+        background-color: #FE0883;
+      }
     }
-  }
-  &.brands-foursquare {
-    background-color: #8FD400;
-    &:hover {
+    &.brands-foursquare {
       background-color: #8FD400;
+      &:hover {
+        background-color: #8FD400;
+      }
     }
-  }
-  &.brands-github {
-    background-color: #222222;
-    &:hover {
+    &.brands-github {
       background-color: #222222;
+      &:hover {
+        background-color: #222222;
+      }
     }
-  }
-  &.brands-gittip {
-    background-color: #663300;
-    &:hover {
+    &.brands-gittip {
       background-color: #663300;
+      &:hover {
+        background-color: #663300;
+      }
     }
-  }
-  &.brands-google-plus {
-    background-color: #C63D2D;
-    &:hover {
+    &.brands-google-plus {
       background-color: #C63D2D;
+      &:hover {
+        background-color: #C63D2D;
+      }
     }
-  }
-  &.brands-html5 {
-    background-color: #E44D26;
-    &:hover {
+    &.brands-html5 {
       background-color: #E44D26;
+      &:hover {
+        background-color: #E44D26;
+      }
     }
-  }
-  &.brands-instagram {
-    background-color: #4E433C;
-    &:hover {
+    &.brands-instagram {
       background-color: #4E433C;
+      &:hover {
+        background-color: #4E433C;
+      }
     }
-  }
-  &.brands-linkedin {
-    background-color: #4875B4;
-    &:hover {
+    &.brands-linkedin {
       background-color: #4875B4;
+      &:hover {
+        background-color: #4875B4;
+      }
     }
-  }
-  &.brands-linux {
-    background-color: #FFD133;
-    &:hover {
+    &.brands-linux {
       background-color: #FFD133;
+      &:hover {
+        background-color: #FFD133;
+      }
     }
-  }
-  &.brands-maxcdn {
-    background-color: #F7AC1B;
-    &:hover {
+    &.brands-maxcdn {
       background-color: #F7AC1B;
+      &:hover {
+        background-color: #F7AC1B;
+      }
     }
-  }
-  &.brands-pagelines {
-    background-color: #135DA7;
-    &:hover {
+    &.brands-pagelines {
       background-color: #135DA7;
+      &:hover {
+        background-color: #135DA7;
+      }
     }
-  }
-  &.brands-pinterest {
-    background-color: #CB2027;
-    &:hover {
+    &.brands-pinterest {
       background-color: #CB2027;
+      &:hover {
+        background-color: #CB2027;
+      }
     }
-  }
-  &.brands-renren {
-    background-color: #005AAB;
-    &:hover {
+    &.brands-renren {
       background-color: #005AAB;
+      &:hover {
+        background-color: #005AAB;
+      }
     }
-  }
-  &.brands-skype {
-    background-color: #00ADF2;
-    &:hover {
+    &.brands-skype {
       background-color: #00ADF2;
+      &:hover {
+        background-color: #00ADF2;
+      }
     }
-  }
-  &.brands-stack-exchange {
-    background-color: #205296;
-    &:hover {
+    &.brands-stack-exchange {
       background-color: #205296;
+      &:hover {
+        background-color: #205296;
+      }
     }
-  }
-  &.brands-stack-overflow {
-    background-color: #D28A29;
-    &:hover {
+    &.brands-stack-overflow {
       background-color: #D28A29;
+      &:hover {
+        background-color: #D28A29;
+      }
     }
-  }
-  &.brands-trello {
-    background-color: #216884;
-    &:hover {
+    &.brands-trello {
       background-color: #216884;
+      &:hover {
+        background-color: #216884;
+      }
     }
-  }
-  &.brands-tumblr {
-    background-color: #2B4964;
-    &:hover {
+    &.brands-tumblr {
       background-color: #2B4964;
+      &:hover {
+        background-color: #2B4964;
+      }
     }
-  }
-  &.brands-twitter {
-    background-color: #33CCFF;
-    &:hover {
+    &.brands-twitter {
       background-color: #33CCFF;
+      &:hover {
+        background-color: #33CCFF;
+      }
     }
-  }
-  &.brands-vimeo {
-    background-color: #86B32D;
-    &:hover {
+    &.brands-vimeo {
       background-color: #86B32D;
+      &:hover {
+        background-color: #86B32D;
+      }
     }
-  }
-  &.brands-vk {
-    background-color: #44678D;
-    &:hover {
+    &.brands-vk {
       background-color: #44678D;
+      &:hover {
+        background-color: #44678D;
+      }
     }
-  }
-  &.brands-weibo {
-    background-color: #D52B2A;
-    &:hover {
+    &.brands-weibo {
       background-color: #D52B2A;
+      &:hover {
+        background-color: #D52B2A;
+      }
     }
-  }
-  &.brands-windows {
-    background-color: #00ADEF;
-    &:hover {
+    &.brands-windows {
       background-color: #00ADEF;
+      &:hover {
+        background-color: #00ADEF;
+      }
     }
-  }
-  &.brands-xing {
-    background-color: #005A5F;
-    &:hover {
+    &.brands-xing {
       background-color: #005A5F;
+      &:hover {
+        background-color: #005A5F;
+      }
     }
-  }
-  &.brands-youtube {
-    background-color: #FF3333;
-    &:hover {
+    &.brands-youtube {
       background-color: #FF3333;
+      &:hover {
+        background-color: #FF3333;
+      }
     }
   }
-}
 
-.brands-transparent > li > a {
-  background-color: rgba(235, 235, 235, 0.4);
-}
-
-.brands-transparent-inverse > li > a {
-  background-color: rgba(85, 85, 85, 0.2);
-  color: #ebebeb;
-}
-
-/*------------------------------
-	SHAPES
-------------------------------*/
-
-.brands-rounded.brands-tn > li > a {
-  border-radius: 2px;
-}
-
-.brands-rounded.brands-sm > li > a {
-  border-radius: 4px;
-}
-
-.brands-rounded > li > a {
-  border-radius: 6px;
-}
-
-.brands-rounded.brands-lg > li > a {
-  border-radius: 8px;
-}
-
-.brands-rounded.brands-hg > li > a {
-  border-radius: 10px;
-}
-
-.brands-circle > li > a {
-  border-radius: 50%;
-}
-
-/*------------------------------
-	ANIMATION
-------------------------------*/
-
-.brands-spin > li > a:hover i {
-  animation: spin 0.5s linear;
-  -webkit-animation: spin 0.5s linear;
-}
-
-.brands-transition > li > a:hover {
-  transition-duration: 0.5s;
-}
-
-/*------------------------------
-	STRUCTURE
-------------------------------*/
-
-.brands-inline > li {
-  display: inline-block;
-  margin-right: 5px;
-}
-
-/*------------------------------
-	MEDIA QUERIES
-------------------------------*/
-
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-
-}
-
-@media (max-width: 767px) {
-  .brands > li > a {
-    color: #ffffff;
+  .brands-transparent > li > a {
+    background-color: rgba(235, 235, 235, 0.4);
   }
 
-  .brands > li > a.brands-adn {
-    background-color: #444444;
+  .brands-transparent-inverse > li > a {
+    background-color: rgba(85, 85, 85, 0.2);
+    color: #ebebeb;
   }
-  .brands > li > a.brands-android {
-    background-color: #A4C639;
+
+  /*------------------------------
+      SHAPES
+  ------------------------------*/
+
+  .brands-rounded.brands-tn > li > a {
+    border-radius: 2px;
   }
-  .brands > li > a.brands-apple {
-    background-color: #000000;
+
+  .brands-rounded.brands-sm > li > a {
+    border-radius: 4px;
   }
-  .brands > li > a.brands-bitbucket {
-    background-color: #205081;
+
+  .brands-rounded > li > a {
+    border-radius: 6px;
   }
-  .brands > li > a.brands-btc {
-    background-color: #F89F37;
+
+  .brands-rounded.brands-lg > li > a {
+    border-radius: 8px;
   }
-  .brands > li > a.brands-css3 {
-    background-color: #2177FF;
+
+  .brands-rounded.brands-hg > li > a {
+    border-radius: 10px;
   }
-  .brands > li > a.brands-dribbble {
-    background-color: #F46899;
+
+  .brands-circle > li > a {
+    border-radius: 50%;
   }
-  .brands > li > a.brands-dropbox {
-    background-color: #3476E4;
-  }
-  .brands > li > a.brands-facebook {
-    background-color: #3B5998;
-  }
-  .brands > li > a.brands-flickr {
-    background-color: #FE0883;
-  }
-  .brands > li > a.brands-foursquare {
-    background-color: #8FD400;
-  }
-  .brands > li > a.brands-github {
-    background-color: #222222;
-  }
-  .brands > li > a.brands-gittip {
-    background-color: #663300;
-  }
-  .brands > li > a.brands-google-plus {
-    background-color: #C63D2D;
-  }
-  .brands > li > a.brands-html5 {
-    background-color: #E44D26;
-  }
-  .brands > li > a.brands-instagram {
-    background-color: #4E433C;
-  }
-  .brands > li > a.brands-linkedin {
-    background-color: #4875B4;
-  }
-  .brands > li > a.brands-linux {
-    background-color: #FFD133;
-  }
-  .brands > li > a.brands-maxcdn {
-    background-color: #F7AC1B;
-  }
-  .brands > li > a.brands-pagelines {
-    background-color: #135DA7;
-  }
-  .brands > li > a.brands-pinterest {
-    background-color: #CB2027;
-  }
-  .brands > li > a.brands-renren {
-    background-color: #005AAB;
-  }
-  .brands > li > a.brands-skype {
-    background-color: #00ADF2;
-  }
-  .brands > li > a.brands-stack-exchange {
-    background-color: #205296;
-  }
-  .brands > li > a.brands-stack-overflow {
-    background-color: #D28A29;
-  }
-  .brands > li > a.brands-trello {
-    background-color: #216884;
-  }
-  .brands > li > a.brands-tumblr {
-    background-color: #2B4964;
-  }
-  .brands > li > a.brands-twitter {
-    background-color: #33CCFF;
-  }
-  .brands > li > a.brands-vimeo {
-    background-color: #86B32D;
-  }
-  .brands > li > a.brands-vk {
-    background-color: #44678D;
-  }
-  .brands > li > a.brands-weibo {
-    background-color: #D52B2A;
-  }
-  .brands > li > a.brands-windows {
-    background-color: #00ADEF;
-  }
-  .brands > li > a.brands-xing {
-    background-color: #005A5F;
-  }
-  .brands > li > a.brands-youtube {
-    background-color: #FF3333;
-  }
+
+  /*------------------------------
+      ANIMATION
+  ------------------------------*/
 
   .brands-spin > li > a:hover i {
-    animation: none;
-    -webkit-animation: none;
+    animation: spin 0.5s linear;
+    -webkit-animation: spin 0.5s linear;
   }
 
+  .brands-transition > li > a:hover {
+    transition-duration: 0.5s;
+  }
+
+  /*------------------------------
+      STRUCTURE
+  ------------------------------*/
+
+  .brands-inline > li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  /*------------------------------
+      MEDIA QUERIES
+  ------------------------------*/
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+
+  }
+
+  @media (max-width: 767px) {
+    .brands > li > a {
+      color: #ffffff;
+
+      &.brands-adn {
+        background-color: #444444;
+      }
+      &.brands-android {
+        background-color: #A4C639;
+      }
+      &.brands-apple {
+        background-color: #000000;
+      }
+      &.brands-bitbucket {
+        background-color: #205081;
+      }
+      &.brands-btc {
+        background-color: #F89F37;
+      }
+      &.brands-css3 {
+        background-color: #2177FF;
+      }
+      &.brands-dribbble {
+        background-color: #F46899;
+      }
+      &.brands-dropbox {
+        background-color: #3476E4;
+      }
+      &.brands-facebook {
+        background-color: #3B5998;
+      }
+      &.brands-flickr {
+        background-color: #FE0883;
+      }
+      &.brands-foursquare {
+        background-color: #8FD400;
+      }
+      &.brands-github {
+        background-color: #222222;
+      }
+      &.brands-gittip {
+        background-color: #663300;
+      }
+      &.brands-google-plus {
+        background-color: #C63D2D;
+      }
+      &.brands-html5 {
+        background-color: #E44D26;
+      }
+      &.brands-instagram {
+        background-color: #4E433C;
+      }
+      &.brands-linkedin {
+        background-color: #4875B4;
+      }
+      &.brands-linux {
+        background-color: #FFD133;
+      }
+      &.brands-maxcdn {
+        background-color: #F7AC1B;
+      }
+      &.brands-pagelines {
+        background-color: #135DA7;
+      }
+      &.brands-pinterest {
+        background-color: #CB2027;
+      }
+      &.brands-renren {
+        background-color: #005AAB;
+      }
+      &.brands-skype {
+        background-color: #00ADF2;
+      }
+      &.brands-stack-exchange {
+        background-color: #205296;
+      }
+      &.brands-stack-overflow {
+        background-color: #D28A29;
+      }
+      &.brands-trello {
+        background-color: #216884;
+      }
+      &.brands-tumblr {
+        background-color: #2B4964;
+      }
+      &.brands-twitter {
+        background-color: #33CCFF;
+      }
+      &.brands-vimeo {
+        background-color: #86B32D;
+      }
+      &.brands-vk {
+        background-color: #44678D;
+      }
+      &.brands-weibo {
+        background-color: #D52B2A;
+      }
+      &.brands-windows {
+        background-color: #00ADEF;
+      }
+      &.brands-xing {
+        background-color: #005A5F;
+      }
+      &.brands-youtube {
+        background-color: #FF3333;
+      }
+    }
+
+    .brands-spin > li > a:hover i {
+      animation: none;
+      -webkit-animation: none;
+    }
+  }
 }
